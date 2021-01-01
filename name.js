@@ -29,7 +29,7 @@ function askForName() {
 function paintGreeting(text) {
   form.classList.remove(SHOWING_CN);
   greeting.classList.add(SHOWING_CN);
-  greeting.innerText = `Hello ${text}`;
+  greeting.innerText = `Hello, ${text}!`;
 }
 
 // Local Storage에 이미 입력받은 user name이 있는지 체크해서,

@@ -1,19 +1,18 @@
-body{
-  background-color: #ecf0f1;
-}
-
-.btn{
-  cursor: pointer;
-}
-
-h1{color: #34495e;transition: color 0.5s ease-in-out;}
-
+body{background-color: #ecf0f1;all: unset;color: #fff;}
+h1{transition: color 0.5s ease-in-out;}
+.clock_container{text-align: center;margin-bottom: 20px;}
+button{cursor: pointer;}
 .form, .greetings{display: none;}
+.showing{display: block;text-align: center;}
 
-.showing{display: block;}
+form{margin-bottom: 20px;text-align: center;}
+form input{border-radius: 5px;border: none;height: 20px;padding: 5px;}
+form input:focus{outline: none;}
 
-.toDoList li button{color: red;font-weight: bold;}
-
+.toDoList{width: 25%;margin-left: 50%;transform: translate(-50%, 0);background-color: rgba(0, 0, 0, 0.6);border-radius: 15px;padding: 20px 25px;}
+.toDoList li{list-style: none;word-break: break-all;text-indent: -25px;margin: 0 0 5px 25px;}
+.toDoList li button{color: red;font-weight: bold;border: none;width: 20px;height: 20px;line-height: 1.5;border-radius: 10px;margin-right: 5px;
+background: url(del_btn.png) no-repeat 3px;background-size: 13px 13px;background-color: #fff;vertical-align: middle;}
 
 @keyframes fadeIn{
   from{
